@@ -5,7 +5,7 @@ import numpy as np
 from tqdm import tqdm
 
 source_path = 'valid.src'
-predict_path = 'predict_predtrain.txt'
+predict_path = 'predict_pretrain.txt'
 tgt_path = 'valid.tgt'
 predict_save = 'pred_pretrain.tsv'
 source = []
