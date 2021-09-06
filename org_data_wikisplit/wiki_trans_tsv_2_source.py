@@ -4,13 +4,13 @@ import json
 import numpy as np
 from tqdm import tqdm
 
-file_path = 'test.tsv'
+file_path = 'pred.tsv'
 valid_source_save = 'valid.src'
 valid_tgt_save = 'valid.tgt'
 train_source_save = 'train.src'
 train_tgt_save = 'train.tgt'
-test_source_save = 'test.src'
-test_tgt_save = 'test.tgt'
+test_source_save = 'pred.src'
+test_tgt_save = 'pred.tgt'
 # read saved file
 pd_sen = pd.read_csv(file_path, sep='\t')
 source = []
